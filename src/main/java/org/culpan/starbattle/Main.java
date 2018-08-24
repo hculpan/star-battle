@@ -65,7 +65,7 @@ public class Main extends Application {
         animator.start();
     }
 
-    public static void Main(String [] args) {
+    public static void main(String [] args) {
         launch(args);
     }
 }
