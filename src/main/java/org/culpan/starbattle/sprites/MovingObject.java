@@ -37,6 +37,8 @@ public abstract class MovingObject {
     }
 
 
+
+    @SuppressWarnings("Duplicates")
     protected void updateLocation() {
         if(speed > 0.1) {
             double radians = Math.toRadians(direction);
@@ -44,7 +46,6 @@ public abstract class MovingObject {
             double yDelta = Math.cos(radians);
             x += speed * xDelta;
             y += speed * (yDelta * -1);
-
         }
 
         if (x < 0) {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.culpan.starbattle.controllers.MainController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Canvas fx:id="backgroundCanvas" height="400.0" width="600.0" />
+            <Canvas fx:id="mainCanvas" height="400.0" width="600.0" />
+            <Canvas fx:id="statusCanvas" height="200.0" width="200.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
